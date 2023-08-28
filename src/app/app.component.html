@@ -1,0 +1,64 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title> Sisyphus Sort </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list style="height: 100%;">
+        <ion-menu-toggle>
+        <ion-item routerLink="/meushorarios">
+          <ion-icon name="server" slot="start"></ion-icon>
+          <ion-label>Meus Horários</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/cadastrarhorarios">
+          <ion-icon name="pencil" slot="start"></ion-icon>
+          <ion-label>Cadastrar Horários</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/editarhorarios">
+          <ion-icon name="hammer" slot="start"></ion-icon>
+          <ion-label>Editar Horários</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/excluirhorarios">
+          <ion-icon name="trash" slot="start"></ion-icon>
+          <ion-label>Excluir Horários</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/configuracoes">
+          <ion-icon name="cog" slot="start"></ion-icon>
+          <ion-label>Configurações</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/meuperfil">
+          <ion-icon name="person" slot="start"></ion-icon>
+          <ion-label>Perfil</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/login">
+          <ion-icon name="person-remove" slot="start"></ion-icon>
+          <ion-label>Sair</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/intro">
+          <ion-icon name="person-remove" slot="start"></ion-icon>
+          <ion-label>Placeholder :: Intro</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

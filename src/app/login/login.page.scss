@@ -1,0 +1,22 @@
+#holder {
+    width: 40%;
+    height: 90%;
+    background-color:#1e2024ec;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: solid 3px black;
+    flex-direction: column;
+}
+
+.botaosize {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}

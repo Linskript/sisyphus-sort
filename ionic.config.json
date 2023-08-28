@@ -1,0 +1,7 @@
+{
+  "name": "Sisyphus Sort",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
